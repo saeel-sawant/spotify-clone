@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;1,300&family=Ubuntu+Condensed&display=swap');
+
+body {
+    background-color: rgb(183, 211, 237);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    align-items: center;
+    background-color: black;
+    color: white;
+   
+}
+
+nav ul li {
+    padding: 0 15px;
+
+    cursor: pointer;
+    
+
+}
+nav ul li:hover{
+    color: rgb(82, 238, 82);
+}
+#user{
+    position: relative;
+    left: 1090px;
+    border: 2px solid white;
+    border-radius: 15px;
+    
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+}
+
+.container {
+    min-height: 60vh;
+    background-color:black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('naruto.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitemcontainer {
+    margin-top: 30px;
+}
+
+.songitems {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 30vw; */
+    margin: 12px 0;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songitems img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
